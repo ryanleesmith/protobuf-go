@@ -121,6 +121,8 @@ func (o UnmarshalOptions) unmarshalMessageSlow(b []byte, m protoreflect.Message)
 			return errDecode
 		}
 		if num > protowire.MaxValidNumber {
+			print("field num too high")
+			print(num)
 			return errDecode
 		}
 
@@ -218,6 +220,8 @@ func (o UnmarshalOptions) unmarshalMap(b []byte, wtyp protowire.Type, mapv proto
 			return 0, errDecode
 		}
 		if num > protowire.MaxValidNumber {
+			print("field num too high")
+			print(num)
 			return 0, errDecode
 		}
 		b = b[n:]

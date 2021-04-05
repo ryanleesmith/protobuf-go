@@ -108,6 +108,8 @@ func (mi *MessageInfo) unmarshalPointer(b []byte, p pointer, groupTag protowire.
 		}
 		var num protowire.Number
 		if n := tag >> 3; n < uint64(protowire.MinValidNumber) || n > uint64(protowire.MaxValidNumber) {
+			print("invalid field")
+			print(n)
 			return out, errDecode
 		} else {
 			num = protowire.Number(n)
