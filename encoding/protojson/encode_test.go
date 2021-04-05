@@ -11,22 +11,22 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"google.golang.org/protobuf/encoding/protojson"
-	"google.golang.org/protobuf/internal/detrand"
-	"google.golang.org/protobuf/internal/flags"
-	"google.golang.org/protobuf/proto"
-	preg "google.golang.org/protobuf/reflect/protoregistry"
-	"google.golang.org/protobuf/testing/protopack"
+	"github.com/ryanleesmith/protobuf-go/encoding/protojson"
+	"github.com/ryanleesmith/protobuf-go/internal/detrand"
+	"github.com/ryanleesmith/protobuf-go/internal/flags"
+	"github.com/ryanleesmith/protobuf-go/proto"
+	preg "github.com/ryanleesmith/protobuf-go/reflect/protoregistry"
+	"github.com/ryanleesmith/protobuf-go/testing/protopack"
 
-	pb2 "google.golang.org/protobuf/internal/testprotos/textpb2"
-	pb3 "google.golang.org/protobuf/internal/testprotos/textpb3"
-	"google.golang.org/protobuf/types/known/anypb"
-	"google.golang.org/protobuf/types/known/durationpb"
-	"google.golang.org/protobuf/types/known/emptypb"
-	"google.golang.org/protobuf/types/known/fieldmaskpb"
-	"google.golang.org/protobuf/types/known/structpb"
-	"google.golang.org/protobuf/types/known/timestamppb"
-	"google.golang.org/protobuf/types/known/wrapperspb"
+	pb2 "github.com/ryanleesmith/protobuf-go/internal/testprotos/textpb2"
+	pb3 "github.com/ryanleesmith/protobuf-go/internal/testprotos/textpb3"
+	"github.com/ryanleesmith/protobuf-go/types/known/anypb"
+	"github.com/ryanleesmith/protobuf-go/types/known/durationpb"
+	"github.com/ryanleesmith/protobuf-go/types/known/emptypb"
+	"github.com/ryanleesmith/protobuf-go/types/known/fieldmaskpb"
+	"github.com/ryanleesmith/protobuf-go/types/known/structpb"
+	"github.com/ryanleesmith/protobuf-go/types/known/timestamppb"
+	"github.com/ryanleesmith/protobuf-go/types/known/wrapperspb"
 )
 
 // Disable detrand to enable direct comparisons on outputs.

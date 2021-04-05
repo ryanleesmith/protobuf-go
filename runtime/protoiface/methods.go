@@ -10,8 +10,8 @@
 package protoiface
 
 import (
-	"google.golang.org/protobuf/internal/pragma"
-	"google.golang.org/protobuf/reflect/protoreflect"
+	"github.com/ryanleesmith/protobuf-go/internal/pragma"
+	"github.com/ryanleesmith/protobuf-go/reflect/protoreflect"
 )
 
 // Methods is a set of optional fast-path implementations of various operations.

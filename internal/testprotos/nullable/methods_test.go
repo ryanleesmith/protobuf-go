@@ -13,9 +13,9 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"google.golang.org/protobuf/proto"
-	"google.golang.org/protobuf/reflect/protoreflect"
-	"google.golang.org/protobuf/testing/protocmp"
+	"github.com/ryanleesmith/protobuf-go/proto"
+	"github.com/ryanleesmith/protobuf-go/reflect/protoreflect"
+	"github.com/ryanleesmith/protobuf-go/testing/protocmp"
 )
 
 func init() {

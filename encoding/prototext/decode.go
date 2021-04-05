@@ -8,17 +8,17 @@ import (
 	"fmt"
 	"unicode/utf8"
 
-	"google.golang.org/protobuf/internal/encoding/messageset"
-	"google.golang.org/protobuf/internal/encoding/text"
-	"google.golang.org/protobuf/internal/errors"
-	"google.golang.org/protobuf/internal/flags"
-	"google.golang.org/protobuf/internal/genid"
-	"google.golang.org/protobuf/internal/pragma"
-	"google.golang.org/protobuf/internal/set"
-	"google.golang.org/protobuf/internal/strs"
-	"google.golang.org/protobuf/proto"
-	pref "google.golang.org/protobuf/reflect/protoreflect"
-	"google.golang.org/protobuf/reflect/protoregistry"
+	"github.com/ryanleesmith/protobuf-go/internal/encoding/messageset"
+	"github.com/ryanleesmith/protobuf-go/internal/encoding/text"
+	"github.com/ryanleesmith/protobuf-go/internal/errors"
+	"github.com/ryanleesmith/protobuf-go/internal/flags"
+	"github.com/ryanleesmith/protobuf-go/internal/genid"
+	"github.com/ryanleesmith/protobuf-go/internal/pragma"
+	"github.com/ryanleesmith/protobuf-go/internal/set"
+	"github.com/ryanleesmith/protobuf-go/internal/strs"
+	"github.com/ryanleesmith/protobuf-go/proto"
+	pref "github.com/ryanleesmith/protobuf-go/reflect/protoreflect"
+	"github.com/ryanleesmith/protobuf-go/reflect/protoregistry"
 )
 
 // Unmarshal reads the given []byte into the given proto.Message.

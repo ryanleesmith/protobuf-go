@@ -3,6 +3,7 @@ module github.com/ryanleesmith/protobuf-go
 go 1.9
 
 require (
-	github.com/ryanleesmith/protobuf v1.5.3
+	github.com/golang/protobuf v1.5.0
 	github.com/google/go-cmp v0.5.5
+	google.golang.org/protobuf v1.26.0 // indirect
 )

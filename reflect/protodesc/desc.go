@@ -13,15 +13,15 @@
 package protodesc
 
 import (
-	"google.golang.org/protobuf/internal/errors"
-	"google.golang.org/protobuf/internal/filedesc"
-	"google.golang.org/protobuf/internal/pragma"
-	"google.golang.org/protobuf/internal/strs"
-	"google.golang.org/protobuf/proto"
-	"google.golang.org/protobuf/reflect/protoreflect"
-	"google.golang.org/protobuf/reflect/protoregistry"
+	"github.com/ryanleesmith/protobuf-go/internal/errors"
+	"github.com/ryanleesmith/protobuf-go/internal/filedesc"
+	"github.com/ryanleesmith/protobuf-go/internal/pragma"
+	"github.com/ryanleesmith/protobuf-go/internal/strs"
+	"github.com/ryanleesmith/protobuf-go/proto"
+	"github.com/ryanleesmith/protobuf-go/reflect/protoreflect"
+	"github.com/ryanleesmith/protobuf-go/reflect/protoregistry"
 
-	"google.golang.org/protobuf/types/descriptorpb"
+	"github.com/ryanleesmith/protobuf-go/types/descriptorpb"
 )
 
 // Resolver is the resolver used by NewFile to resolve dependencies.

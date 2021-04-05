@@ -13,11 +13,11 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"google.golang.org/protobuf/encoding/prototext"
-	pdesc "google.golang.org/protobuf/reflect/protodesc"
-	pref "google.golang.org/protobuf/reflect/protoreflect"
+	"github.com/ryanleesmith/protobuf-go/encoding/prototext"
+	pdesc "github.com/ryanleesmith/protobuf-go/reflect/protodesc"
+	pref "github.com/ryanleesmith/protobuf-go/reflect/protoreflect"
 
-	"google.golang.org/protobuf/types/descriptorpb"
+	"github.com/ryanleesmith/protobuf-go/types/descriptorpb"
 )
 
 var msgDesc = func() pref.MessageDescriptor {

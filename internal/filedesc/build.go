@@ -9,11 +9,11 @@
 package filedesc
 
 import (
-	"google.golang.org/protobuf/encoding/protowire"
-	"google.golang.org/protobuf/internal/genid"
-	"google.golang.org/protobuf/reflect/protoreflect"
-	pref "google.golang.org/protobuf/reflect/protoreflect"
-	preg "google.golang.org/protobuf/reflect/protoregistry"
+	"github.com/ryanleesmith/protobuf-go/encoding/protowire"
+	"github.com/ryanleesmith/protobuf-go/internal/genid"
+	"github.com/ryanleesmith/protobuf-go/reflect/protoreflect"
+	pref "github.com/ryanleesmith/protobuf-go/reflect/protoreflect"
+	preg "github.com/ryanleesmith/protobuf-go/reflect/protoregistry"
 )
 
 // Builder construct a protoreflect.FileDescriptor from the raw descriptor.

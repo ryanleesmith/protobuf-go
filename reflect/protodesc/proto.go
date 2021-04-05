@@ -8,12 +8,12 @@ import (
 	"fmt"
 	"strings"
 
-	"google.golang.org/protobuf/internal/encoding/defval"
-	"google.golang.org/protobuf/internal/strs"
-	"google.golang.org/protobuf/proto"
-	"google.golang.org/protobuf/reflect/protoreflect"
+	"github.com/ryanleesmith/protobuf-go/internal/encoding/defval"
+	"github.com/ryanleesmith/protobuf-go/internal/strs"
+	"github.com/ryanleesmith/protobuf-go/proto"
+	"github.com/ryanleesmith/protobuf-go/reflect/protoreflect"
 
-	"google.golang.org/protobuf/types/descriptorpb"
+	"github.com/ryanleesmith/protobuf-go/types/descriptorpb"
 )
 
 // ToFileDescriptorProto copies a protoreflect.FileDescriptor into a

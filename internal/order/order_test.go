@@ -10,8 +10,8 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"google.golang.org/protobuf/reflect/protoreflect"
-	pref "google.golang.org/protobuf/reflect/protoreflect"
+	"github.com/ryanleesmith/protobuf-go/reflect/protoreflect"
+	pref "github.com/ryanleesmith/protobuf-go/reflect/protoreflect"
 )
 
 type fieldDesc struct {
